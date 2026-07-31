@@ -19,7 +19,6 @@ haruya = {
     "schools":   ["42 Tokyo", "University of London"],
     "interests": ["systems programming", "linux", "discord bots",
                   "search & retrieval (RAG)"],
-    "toolbelt":  ["uv", "pytest", "mypy", "flake8", "make"],
     "currently": "building a RAG pipeline from scratch 🔎",
 }
 ```
