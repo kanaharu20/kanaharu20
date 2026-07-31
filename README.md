@@ -46,7 +46,7 @@ haruya = {
 | Project | What it is |
 |---------|------------|
 | [RAG-against-the-machine](https://github.com/kanaharu20/RAG-against-the-machine) | Retrieval-Augmented Generation pipeline — chunking, indexing and search, evaluated with Recall@k *(work in progress)* |
-| [Call-Me-Maybe](https://github.com/kanaharu20/Call-Me-Maybe) | Python CLI project built around `argparse` and JSON data handling |
+| [Call-Me-Maybe](https://github.com/kanaharu20/Call-Me-Maybe) | LLM function calling by **constrained decoding** — a token trie picks the function name and type-aware logit masks fill the arguments, so a 0.6B model can only ever emit structurally valid JSON |
 | [Fly-in](https://github.com/kanaharu20/Fly-in) | Drone routing simulator — pathfinding over a zone graph with movement costs and capacity limits |
 | [A-Maze-ing](https://github.com/kanaharu20/A-Maze-ing) | Maze generator / BFS solver / ANSI terminal renderer, packaged as a reusable class |
 
