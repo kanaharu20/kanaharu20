@@ -1,100 +1,28 @@
-<div align="center">
+# Haruya Kanamitsu / 金光 悠陽
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Haruya%20Kanamitsu&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=kanaharu20&descSize=20&descAlignY=55"/>
+Student at University of London (BSc Computer Science, Machine Learning and AI) and 42Tokyo. Intern at INDX.
+I run small models on data that can't leave the machine, and measure how far their answers can be trusted.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B68EE&center=true&vCenter=true&width=500&lines=42+Tokyo+%7C+Uni+of+London+Student;C+%2F+Python+Developer;Linux+Enthusiast;Discord+Bot+Builder;RAG+%26+LLM+Learner)](https://github.com/DenverCoder1/readme-typing-svg)
+University of London（CS、機械学習・AI 専攻）と 42Tokyo の学生。INDX でインターン中。
+外に出せないデータを手元の小型モデルで扱い、その答えをどこまで信用していいかを測っています。
 
-</div>
+## Projects / プロジェクト
 
----
+| Project | What it is | 内容 |
+|---|---|---|
+| [movie_llm](https://github.com/kanaharu20/movie_llm) | Japanese scene search over unaired footage with a 4B VLM. Self-written GRPO + LoRA, then a two-stage pipeline whose model agreement serves as confidence: 87.5% overall, 95.3% on auto-answered queries | 未放送映像を日本語で検索する小型 VLM。自前の GRPO + LoRA で学習し、2 モデルの一致を信頼度に使う 2 段構成で 87.5%、自動で返す問いでは 95.3% |
+| [Forgetting_Knowingly](https://github.com/kanaharu20/Forgetting_Knowingly) | Do fixed-state models (GRU, windowed Transformer) lower their confidence when they forget? | 過去を圧縮して持つモデルは、忘れたことを確信度に反映するか |
+| [hidane](https://github.com/kanaharu20/hidane) | A Claude Code tool that maps how well you understand AI-written code, one question at a time | AI に書かせたコードをどこまで理解しているかを、一問一答で測る Claude Code 用ツール |
+| [Call-Me-Maybe](https://github.com/kanaharu20/Call-Me-Maybe) | Function calling for a 0.6B LLM by constrained decoding: invalid JSON cannot be generated | 0.6B の LLM で、不正な JSON を出せない function calling |
+| [RAG](https://github.com/kanaharu20/RAG) | RAG over the vLLM codebase: language-aware chunking, BM25, grounded answers, recall@k | vLLM のコードベースに対する RAG |
 
-<div align="center">
+42Tokyo: [Fly-in](https://github.com/kanaharu20/Fly-in) (routing), [Codexion](https://github.com/kanaharu20/Codexion) (C, pthreads), [A-Maze-ing](https://github.com/kanaharu20/A-Maze-ing), [PacMan](https://github.com/kanaharu20/PacMan), [libft](https://github.com/kanaharu20/ft_libft), [ft_printf](https://github.com/kanaharu20/ft_printf), [get_next_line](https://github.com/kanaharu20/GNL), [push_swap](https://github.com/kanaharu20/push_swap), Python modules [00](https://github.com/kanaharu20/Python_module_00)–[10](https://github.com/kanaharu20/Python_module_10)
 
-## 🧑‍💻 About Me
+## Stack
 
-</div>
+Python · PyTorch · Hugging Face Transformers / PEFT · C · Linux · uv · Docker
 
-```python
-haruya = {
-    "schools":   ["42 Tokyo", "University of London"],
-    "interests": ["systems programming", "linux", "discord bots",
-                  "search & retrieval (RAG)"],
-    "currently": "building a RAG pipeline from scratch 🔎",
-}
-```
+## Contact / 連絡先
 
----
-
-<div align="center">
-
-## 🛠 Tech Stack
-
-[![My Skills](https://skillicons.dev/icons?i=c,python,linux,bash,git,github,vscode,markdown&perline=8)](https://skillicons.dev)
-
-</div>
-
----
-
-<div align="center">
-
-## 📂 Projects
-
-</div>
-
-### 🤖 AI / Algorithms
-
-| Project | What it is |
-|---------|------------|
-| [RAG-against-the-machine](https://github.com/kanaharu20/RAG-against-the-machine) | Retrieval-Augmented QA over the vLLM codebase — language-aware chunking (Python vs Markdown), a lexical TF-IDF / BM25 index, and answers grounded in the retrieved snippets via Qwen3-0.6B, scored by recall@k *(work in progress)* |
-| [Call-Me-Maybe](https://github.com/kanaharu20/Call-Me-Maybe) | LLM function calling by **constrained decoding** — a token trie picks the function name and type-aware logit masks fill the arguments, so a 0.6B model can only ever emit structurally valid JSON |
-| [Fly-in](https://github.com/kanaharu20/Fly-in) | Drone routing simulator — pathfinding over a zone graph with movement costs and capacity limits |
-| [A-Maze-ing](https://github.com/kanaharu20/A-Maze-ing) | Maze generator / BFS solver / ANSI terminal renderer, packaged as a reusable class |
-
-### 🐍 Python Piscine
-
-[![Python 00](https://img.shields.io/badge/module-00-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_00)
-[![Python 01](https://img.shields.io/badge/module-01-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_01)
-[![Python 02](https://img.shields.io/badge/module-02-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_02)
-[![Python 03](https://img.shields.io/badge/module-03-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_03)
-[![Python 04](https://img.shields.io/badge/module-04-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_04)
-[![Python 05](https://img.shields.io/badge/module-05-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_05)
-[![Python 06](https://img.shields.io/badge/module-06-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_06)
-[![Python 07](https://img.shields.io/badge/module-07-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_07)
-[![Python 08](https://img.shields.io/badge/module-08-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_08)
-[![Python 09](https://img.shields.io/badge/module-09-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_09)
-[![Python 10](https://img.shields.io/badge/module-10-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/kanaharu20/Python_module_10)
-
-### ⚙️ 42 Common Core (C)
-
-[![libft](https://img.shields.io/badge/ft__libft-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://github.com/kanaharu20/ft_libft)
-[![ft_printf](https://img.shields.io/badge/ft__printf-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://github.com/kanaharu20/ft_printf)
-[![get_next_line](https://img.shields.io/badge/GNL-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://github.com/kanaharu20/GNL)
-[![push_swap](https://img.shields.io/badge/push__swap-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://github.com/kanaharu20/push_swap)
-
----
-
-<div align="center">
-
-## 📊 GitHub Stats
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kanaharu20&theme=tokyonight" width="820"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kanaharu20&theme=tokyonight" height="180"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kanaharu20&theme=tokyonight" height="180"/>
-
-<img src="https://streak-stats.demolab.com?user=kanaharu20&theme=tokyonight&hide_border=true&background=0D1117&ring=7B68EE&fire=FF6B6B&currStreakLabel=7B68EE" />
-
-</div>
-
----
-
-<div align="center">
-
-## 📬 Contact
-
-[![Email](https://img.shields.io/badge/Email-harurun20060503%40icloud.com-D14836?style=for-the-badge&logo=icloud&logoColor=white)](mailto:harurun20060503@icloud.com)
-[![GitHub](https://img.shields.io/badge/GitHub-kanaharu20-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kanaharu20)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+- Email: harurun20060503@icloud.com
+- LinkedIn: [linkedin.com/in/kanamitsu-haruya-a94896428](https://www.linkedin.com/in/kanamitsu-haruya-a94896428/)
