@@ -6,17 +6,9 @@ I run small models on data that can't leave the machine, and measure how far the
 University of London（CS、機械学習・AI 専攻）と 42Tokyo の学生。INDX でインターン中。
 外に出せないデータを手元の小型モデルで扱い、その答えをどこまで信用していいかを測っています。
 
-## Projects / プロジェクト
-
-- [movie_llm](https://github.com/kanaharu20/movie_llm) — Japanese scene search over unaired footage / 未放送映像の日本語シーン検索
-- [Forgetting_Knowingly](https://github.com/kanaharu20/Forgetting_Knowingly) — Do fixed-state models know what they forgot? / 忘却と確信度の研究
-- [hidane](https://github.com/kanaharu20/hidane) — Measuring how well you understand AI-written code / AI に書かせたコードの理解度を測るツール
-- [Call-Me-Maybe](https://github.com/kanaharu20/Call-Me-Maybe) — Function calling by constrained decoding
-- [RAG](https://github.com/kanaharu20/RAG) — RAG over the vLLM codebase
-
 ## Stack
 
-Python · PyTorch · Hugging Face Transformers / PEFT · C · Linux · uv · Docker
+Python · PyTorch · Hugging Face Transformers　・ C · Linux
 
 ## Contact / 連絡先
 
